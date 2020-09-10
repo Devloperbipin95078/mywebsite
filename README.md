@@ -10,6 +10,84 @@
     <!-- <link rel="stylesheet" href="css/ps.css"> -->
     <title>Bipin Portfolio</title>
     <style>
+     *{
+    margin: 0;padding: 0;box-sizing: border-box;
+}
+body{
+
+}
+header{
+ background-image: url("img/iii.jpg");
+ width: 100%;
+ height: 300px;
+}
+#head{
+    top: 60px;
+    /* position: sticky; */
+    width: 100%;
+    height: 50px;
+    background: #000;
+    display: flex;
+}
+#head #logo h4{
+    width: 250px;
+  padding: 10px;
+  color: #fff;
+  font-size: 25px;
+
+}
+#head #menu ul li{
+    position: absolute;
+    left: 40%;
+    display: flex;
+    /* margin-left: 20px; */
+}
+#head #menu ul li a{
+    text-decoration: none;
+    margin-left: 20px;
+    line-height: 50px;
+    font-size: 20px;
+    color: #fff;
+}
+#head #icon img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid red;
+    padding: 5px;
+    margin-left: 10px;
+}
+#head #icon{
+    position: absolute;
+    left: 80%;
+
+}
+section #main{
+margin-top: 100px;
+margin-left: 380px;
+}
+#main li{
+    list-style: none;
+}
+#main li a{
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 3px;
+    background: #000;
+  padding: 5px 10px;
+  color: #fff;
+}
+
+
+#main li a.active{
+    background: red;
+}#main li a:hover{
+    background: red;
+}
+ section #box{
+    display: none;
+
+}
       
         .imagecontainer{
           
